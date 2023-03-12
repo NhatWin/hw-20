@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import AboutMe from "./routes/AboutMe";
 import Contact from "./routes/Contact";
@@ -19,6 +20,7 @@ function App() {
         <>
           <NavBar handleClick={handleNavClick} />
           <AboutMe />
+          <Footer />
         </>
       );
     case "/portfolio":
@@ -26,6 +28,7 @@ function App() {
         <>
           <NavBar handleClick={handleNavClick} />
           <Portfolio />
+          <Footer />
         </>
       );
     case "/contact":
@@ -33,6 +36,7 @@ function App() {
         <>
           <NavBar handleClick={handleNavClick} />
           <Contact />
+          <Footer />
         </>
       );
     case "/resume":
@@ -40,6 +44,7 @@ function App() {
         <>
           <NavBar handleClick={handleNavClick} />
           <Resume />
+          <Footer />
         </>
       );
   }
@@ -48,6 +53,7 @@ function App() {
     <>
       <NavBar handleClick={handleNavClick} />
       <AboutMe />
+      <Footer />
     </>
   );
 }
