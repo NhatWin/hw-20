@@ -1,7 +1,7 @@
 export default function Portfolio() {
   return (
     <>
-      <div className="flex flex-row ">
+      <div id="aboutme" className="flex flex-row pt-20">
         <img
           src="./src/assets/cat.jpg"
           alt=""
