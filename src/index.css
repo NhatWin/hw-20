@@ -35,3 +35,8 @@ footer {
   font-size: 20px;
   font-family: Montreal;
 }
+
+#icon {
+  filter: invert(97%) sepia(100%) saturate(14%) hue-rotate(345deg)
+    brightness(105%) contrast(104%);
+}
