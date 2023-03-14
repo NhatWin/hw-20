@@ -20,7 +20,8 @@
   font-style: italic;
 }
 
-#summary {
+#summary,
+#header {
   font-size: 40px;
   font-family: Montreal;
 }
@@ -39,4 +40,18 @@ footer {
 #icon {
   filter: invert(97%) sepia(100%) saturate(14%) hue-rotate(345deg)
     brightness(105%) contrast(104%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+#box {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
 }
